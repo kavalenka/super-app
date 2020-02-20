@@ -27,7 +27,7 @@ gem 'sqreen', '>= 1.16'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'pg'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -37,7 +37,6 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
 
